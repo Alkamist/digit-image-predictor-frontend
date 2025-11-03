@@ -1,0 +1,9 @@
+{
+  "name": "digit-image-predictor-frontend",
+  "version": "0.1.0",
+  "description": "Digit Image Predictor Frontend",
+  "scripts": {
+    "dev": "npx serve public",
+    "build": "echo 'No build needed'"
+  }
+}
