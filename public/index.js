@@ -257,7 +257,7 @@ function MNISTDrawer() {
         throw new Error(`Server responded with ${response.status}`);
       }
       const result = await response.json();
-      setPredictedDigit(result.prediction || result.digit || result);
+      setPredictedDigit(result.prediction ?? result.digit ?? result);
     } catch (err) {
       setError(err.message);
     } finally {
